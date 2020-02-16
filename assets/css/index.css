@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Economica:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+button {
+  background-color: red;
+}
+
+body {
+  background-image: url(https://www.itl.cat/pngfile/big/213-2136767_free-running-girl-jogging.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+body.has-overlay::after {
+  content: "";
+  display: block;
+  position: fixed;
+  padding: 100px 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 200px;
+  letter-spacing: 12px;
+  color: white;
+  margin-bottom: 0;
+  position: Center;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Economica';
+  letter-spacing: 8px;
+}
+
+button {
+  background: #fc0330;
+  color: white;
+  letter-spacing: 3px;
+  border-style: ridge;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding: 6px 26px;
+  font-family: 'Economica';
+  font-size: 26px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}

@@ -1,13 +1,111 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Economica:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* Navbar */
-
+/* ------------------------------------------------------------------------------ map styling*/
 
 #map {
   height: 500px;
 }
 
 .display-4 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* ------------------------------------------------------------------------------ navbar styling*/
+
+body {
+  background-image: url(https://www.itl.cat/pngfile/big/7-78353_blue-texture-wallpaper-hd-navy-blue-desktop-background.jpg);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fc0330;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #6c00bf;
+}
+
+
+.form {
+  height: 50px;
+  float: right;
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  min-height: 55px;
+  font-size: 50px;
+  background-color: #fc0330;
+}
+
+.navbar-brand:hover:not(.active) {
+  background-color: #fc0330;
+}
+
+.brand-text {
+  color: white;
   font-size: 30px;
-  font-family: 'Blinker', sans-serif;
+}
+
+.top-navbar {
+  margin-bottom: 20px;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0 {
+  background-color: #6817ff;
+  color: white;
+  width: 140px;
+}
+
+input.form-control.mr-sm-2 {
+  width: 460px;
+  text-align: center;
+}
+
+
+@media (min-width: 600px) {
+  .top-navbar {
+
+}
+}
+
+@media (max-width: 600px) {
+  .top-navbar {
+  display: grid
+}
+}
+
+/* ------------------------------------------------------------------------------ footer styling*/
+
+footer {
+    background-color: #fc0330;
+    color: #fafafa;
+    min-height: 55px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
