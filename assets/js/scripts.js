@@ -82,113 +82,46 @@ function createMap () {
     // // animation: google.maps.Animation.BOUNCE,
     // // });
 
-    // var marker = new google.maps.Marker({
-    // position: { lat: 40.4167754, lng: -3.7037902 },
-    // map: map,
-    // title: 'Moral Trail Race',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
 
-    // var marker = new google.maps.Marker({
-    // position: { lat: 44.2237608, lng: 11.6238183 },
-    // map: map,
-    // title: 'Trail del Cinghiale',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
+    var runevent = [
+        {title: 'Joulujuoksu', location:{lat: 60.1733244, lng: 24.9410248}}
+        {title: 'GRIM Challenge Aldershot', location:{lat: 51.2662802, lng: -0.7853785}}
+        {title: 'Half Marathon Valley of Springs', location:{lat: 32.494236, lng: 35.519936}}
+        {title: 'Mispo Winter Marathon', location:{lat: 58.3858079, lng: 24.4965768}}
+        {title: 'Lemelerberg Trailrun', location:{lat: 52.4583452, lng: 6.3971765}}
+        {title: 'KLM Curacao Marathon', location:{lat: 12.0889603, lng: -68.899292}}
+        {title: 'Padenghe Half Marathon', location:{lat: 45.5066181, lng: 10.5007705}}
+        {title: 'Half Marathon of Famalicão', location:{lat: 41.4079082, lng: -8.5082539}}
+        {title: 'Espoo Rantamaraton', location:{lat: 60.1851737, lng: 24.83719}}
+        {title: 'Santa Dash Galway', location:{lat: 53.270668, lng: -9.0567905}}
+        {title: 'Circuito Trail Valencia - Navarrés', location:{lat: 39.1015607, lng: -0.6950987}}
+        {title: 'The 5k and 10k MoRun Sumner Park Brighton', location:{lat: 50.82253, lng: -0.137163}}
+        {title: 'Maratona della Via Egnatia', location:{lat: 41.3328072, lng: 19.4616074}}
+        {title: 'Trail del Cinghiale', location:{lat: 44.2237608, lng: 11.6238183}}
+        {title: 'Moral Trail Race', location:{lat: 40.4167754, lng: -3.7037902}}
+        {title: 'The 10k MoRun Greenwich Park London', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: 51.4825765, lng: -0.0076589}}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        {title: 'Name', location:{lat: , lng: }}
+        
 
-    // var marker = new google.maps.Marker({
-    // position: { lat: 41.3328072, lng: 19.4616074 },
-    // map: map,
-    // title: 'Maratona della Via Egnatia',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // // var marker = new google.maps.Marker({
-    // // position: { lat: 50.82253, lng: -0.137163 },
-    // // map: map,
-    // // title: 'The 5k and 10k MoRun Sumner Park Brighton',
-    // // animation: google.maps.Animation.BOUNCE,
-    // // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 39.1015607, lng: -0.6950987 },
-    // map: map,
-    // title: 'Circuito Trail Valencia - Navarrés',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 53.270668, lng: -9.0567905 },
-    // map: map,
-    // title: 'Santa Dash Galway',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 60.1851737, lng: 24.83719 },
-    // map: map,
-    // title: 'Espoo Rantamaraton',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 41.4079082, lng: -8.5082539 },
-    // map: map,
-    // title: 'Half Marathon of Famalicão',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 45.5066181, lng: 10.5007705 },
-    // map: map,
-    // title: 'Padenghe Half Marathon',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 12.0889603, lng: -68.899292 },
-    // map: map,
-    // title: 'KLM Curacao Marathon',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 52.4583452, lng: 6.3971765 },
-    // map: map,
-    // title: 'Lemelerberg Trailrun',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 58.3858079, lng: 24.4965768 },
-    // map: map,
-    // title: 'Mispo Winter Marathon',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 32.494236, lng: 35.519936 },
-    // map: map,
-    // title: 'Half Marathon Valley of Springs',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 51.2662802, lng: -0.7853785 },
-    // map: map,
-    // title: 'GRIM Challenge Aldershot',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-    // var marker = new google.maps.Marker({
-    // position: { lat: 60.1733244, lng: 24.9410248 },
-    // map: map,
-    // title: 'Joulujuoksu',
-    // animation: google.maps.Animation.BOUNCE,
-    // });
-
-
-    var runevent = [{title: 'test1', location:{lat: 51.4825765, lng: -0.0076589}}]
+    
+    
+    
+    ]
 
     var markers = runevent.map(function(data, i) {
           return new google.maps.Marker({
