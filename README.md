@@ -81,7 +81,11 @@ THe site will help users:
 
 #### Wireframes
 
+https://github.com/brosnans/milestone-project-2/blob/master/assets/Wireframe%20%231.jpg
 
+https://github.com/brosnans/milestone-project-2/blob/master/assets/Wireframe%20%232.jpg
+
+https://github.com/brosnans/milestone-project-2/blob/master/assets/Wireframe%20%233.jpg
 
 ### Deployed to Github Pages
 
@@ -102,27 +106,8 @@ Tested on iPhone 5, 6, 7, 8 and X
 
 **PROBLEM**
 
-Navbar in two lines
 
 **FIX**
-
-Added media query to make navbar responsive in mobile view
-
-```css
-@media (min-width: 600px) {
-  .top-navbar {
-  
-}
-}
-
-@media (max-width: 600px) {
-  .top-navbar {
-  display: grid
-}
-}
-```
-
----
 
 
 #### *Desktop*
